@@ -67,13 +67,20 @@ body {
 **********************************************************************************************/
 footer ul {
   list-style: none;
+  padding: 0;
 }
 footer ul li a {
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 footer ul li {
   text-align: center;
+  padding: 0;
 }
 footer i {
   color: var(--primary-color);
@@ -82,8 +89,8 @@ hr {
   background: white;
 }
 
-@media screen and (max-width: 768px) {
-  footer img {
-    display: none;
+@media screen and (max-width: 400px) {
+  footer ul li a {
+    font-size: 11px;
   }
 }

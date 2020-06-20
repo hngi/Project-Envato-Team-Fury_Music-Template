@@ -70,3 +70,8 @@
   width: 75%;
   color: white;
 }
+@media screen and (max-width: 400px) {
+  .form-control, .form-control:focus{
+    width: 100%;
+  }
+}
