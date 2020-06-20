@@ -1,0 +1,72 @@
+/*Don't touch this file if it was not assigned to you, I'm warning you!!!!!!!!!!!!!!!*/
+
+
+/*********************************************************************************************
+                                          RELEASES PAGE HERO SECTION
+**********************************************************************************************/
+#releases-hero {
+  background-image: url('../../assets/img/Rectangle 7.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 16vh;
+  padding-bottom: 16vh;
+}
+.releases-hero__content {
+  width: 80%;
+}
+
+
+/*********************************************************************************************
+                                          NEW RELEASES SECTION
+**********************************************************************************************/
+.releases-new {
+  margin-bottom: 2rem;
+}
+.releases-new img{
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.releases-new h6,.releases-new p, .releases-new .fa-play{
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+.releases-new .fa-play {
+  top: 130px;
+  left: 22px;
+}
+.releases-new--2 h6, .releases-new--2 p {
+  left: 20px;
+}
+.releases-new p {
+  top: 200px;
+  font-weight: 300;
+}
+
+/*********************************************************************************************
+                                          POPULAR RELEASES SECTION
+**********************************************************************************************/
+.releases-popular-content {
+  background-color: var(--light-dark-color);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.releases-popular-content p {
+  margin-bottom: 0.4rem;
+}
+
+/*********************************************************************************************
+                                          SUBSCRIBE SECTION
+**********************************************************************************************/
+.form-control, .form-control:focus{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  width: 75%;
+  color: white;
+}
