@@ -114,6 +114,7 @@ input[type=email] {
 .footer1 a {
     color: #fff;
     font-size: 10pt;
+    padding-top: 2em;
 }
 .footer1 a:hover {
     color: #7971e9;
@@ -154,5 +155,10 @@ input[type=email] {
     width: 50%;
     height: 20%
 }
+.footer1 {
+    display: block;
+}
+
+
 }
 
