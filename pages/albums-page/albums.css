@@ -109,6 +109,7 @@ input[type=email] {
 /*Footer*/
 .footer1 {
     border-bottom: 1px solid #fff;
+    width: 100%;
 }
 
 .footer1 a {
