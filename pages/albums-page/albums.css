@@ -105,11 +105,15 @@ input[type=email] {
 #notify .btn {
  margin-left: 25em;
 }
+
+/*Footer*/
 .footer1 {
     border-bottom: 1px solid #fff;
 }
+
 .footer1 a {
     color: #fff;
+    font-size: 10pt;
 }
 .footer1 a:hover {
     color: #7971e9;
