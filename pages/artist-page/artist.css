@@ -1,0 +1,34 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+  
+  .container {
+  position: relative;
+  text-align: center-left;
+  color: white;
+  margin:0;
+	padding:0;
+}
+.bg-company-red {
+    background-color: #130f14 !important;
+}
+article{
+	background-color: #130f14;
+	text-align:center;
+}
+h3,p,h2{
+	text-align:left;
+}
+h4{
+	text-align:center-right;
+}
+new{
+	background-color:white;
+	
+}
+hr.new1{
+  border: 2px solid #191B27;
+  border-radius: 5px;
+  	width:97%;
+}
+.fa-star{
+	color:white;
+}
