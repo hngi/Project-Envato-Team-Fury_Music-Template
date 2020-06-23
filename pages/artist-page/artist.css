@@ -32,3 +32,10 @@ hr.new1{
 .fa-star{
 	color:white;
 }
+.nav-item {
+  padding-left: 4rem;
+}
+
+.btn-sign {
+  margin: 0 2.5rem;
+}
