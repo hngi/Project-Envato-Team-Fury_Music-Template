@@ -133,7 +133,8 @@ nav.navbar .navbar-brand{
   color: var(--text-color);
 }
 .navbar .navbar-nav .nav-item{
-  margin: 0 10px;
+  margin: 0 1rem;
+  padding-left: .5rem;
 }
 .navbar .navbar-nav .nav-item.active .nav-link{
   color:var(--btn-color)
@@ -326,7 +327,7 @@ section.blog{
 }
 .blog .blog-img-wrap{
   height: 100%;
-  background-image: url(/asserts/img/Rectangle\ 29.png);
+  background-image: url(/assets/img/Rectangle\ 29.png);
   background-size: cover;
   position: relative;
   padding: 10px
@@ -360,12 +361,12 @@ position: relative;
 }
 
 .img-one{
-  background-image: url(/asserts/img/Rectangle\ 30.png);
+  background-image: url(/assets/img/Rectangle\ 30.png);
   background-size: cover;
   margin-bottom: 20px;
 }
 .img-two{
-  background-image: url(/asserts/img/Rectangle\ 31.png);
+  background-image: url(/assets/img/Rectangle\ 31.png);
   background-size: cover;
 }
 .img-one > div, .img-two > div{
