@@ -22,11 +22,12 @@
 header .hero{
     overflow: hidden;
     width: 100%;
-    height: 68vh;
+    height: 77vh;
     background: url('../../assets/img/Rectangle 7 (4).png') no-repeat;
     background-size: cover;
-    padding-top: 160px;
+    padding-top: 10rem;
   }
+
 
 
   /* Body Sections */
@@ -84,3 +85,10 @@ header .hero{
   color: var(--text-color);
   margin-top: 2rem;
 }
+
+
+/*************************
+
+// Media Queries
+
+**************************/
