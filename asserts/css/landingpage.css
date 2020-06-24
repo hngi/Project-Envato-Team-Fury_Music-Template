@@ -434,8 +434,8 @@ position: relative;
 /* footer */
 footer{
   background-color: var(--release-bg-color);
-  height: 250px;
-  padding-top: 50px;
+  height: 15rem;
+  padding-top: 3rem;
 }
 footer ul{
   display: flex !important;

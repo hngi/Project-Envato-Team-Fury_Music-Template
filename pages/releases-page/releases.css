@@ -65,13 +65,32 @@ body {
   border: solid var(--secondary-color);
 }
 
+/* 
+/////////////////////////////////// Hero
+*/
+header .hero{
+  overflow: hidden;
+  width: 100%;
+  height: 78vh;
+  background: url(/assets/img/Rectangle\ 7.png) no-repeat;
+  background-size: cover;
+  padding-top: 160px;
+}
+
+header .hero .hero-content{
+  padding-top: .6rem;
+}
 
 
 
 /*********************************************************************************************
                                           FOOTER
 **********************************************************************************************/
-footer ul {
+footer {
+  margin-top: 3.3rem;
+}
+
+/* footer ul {
   list-style: none;
   padding: 0;
 }
@@ -99,7 +118,7 @@ hr {
   footer ul li a {
     font-size: 11px;
   }
-}
+} */
 
 
 /*Don't touch this file if it was not assigned to you, I'm warning you!!!!!!!!!!!!!!!*/
@@ -108,18 +127,20 @@ hr {
 /*********************************************************************************************
                                           RELEASES PAGE HERO SECTION
 **********************************************************************************************/
-#releases-hero {
+/* #releases-hero {
   background-image: url('../../assets/img/Rectangle 7.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding-top: 16vh;
-  padding-bottom: 16vh;
-}
-.releases-hero__content {
+  /* padding-top: 16vh;
+  padding-bottom: 16vh; */
+  /* width: 100%; */
+  /* height: 70vh; */
+/* } */
+/* .releases-hero__content {
   width: 80%;
-}
+} */
 
 
 /*********************************************************************************************
